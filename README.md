@@ -27,12 +27,12 @@
 8. 创建变量 `ANTARES_UPLOAD_SECRET`、`ANTARES_UPLOAD_URL` 和 `ANTARES_STORAGE_URL`
 
    前往 Workers 的 Settings 页面 - 选择 Variables 选项卡 - 下滑至 **Environment Variables** 并创建：
-
-   | 变量名                | 描述                       | 示例                                    |
-   | --------------------- | -------------------------- | --------------     ---------------------- |
-   | ANTARES_UPLOAD_SECRET | 用于校验前端页面的上传权限 | 9f7c87a1-a5a2-3516-   8723-1f683445224e |
-   | ANTARES_UPLOAD_URL    | 前端上传文件的目标后端地址 |    https://example.com/upload           |
-   | ANTARES_STORAGE_URL   | 存储桶根地址               |    https://s0.example.com               |
+   
+   | 变量名                | 描述                       | 示例                                 |
+   | --------------------- | -------------------------- | ------------------------------------ |
+   | ANTARES_UPLOAD_SECRET | 用于校验前端页面的上传权限 | 9f7c87a1-a5a2-3516-8723-1f683445224e |
+   | ANTARES_UPLOAD_URL    | 前端上传文件的目标后端地址 | https://example.com/upload           |
+   | ANTARES_STORAGE_URL   | 存储桶根地址               | https://s0.example.com               |
 
 
 
