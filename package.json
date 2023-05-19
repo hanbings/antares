@@ -1,6 +1,6 @@
 {
   "name": "cuteverse",
-  "version": "0.0.0",
+  "version": "1.0.1",
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20230321.0",
     "@types/node": "^18.15.11",
