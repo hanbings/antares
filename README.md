@@ -4,7 +4,7 @@
 
 1. 下载本仓库的代码
 
-2. 安装 Cloudflare 的 CLI 工具 Wrangler `npm install -g wrangler`
+2. 安装 [Cloudflare](https://www.cloudflare.com/) 的 CLI 工具 Wrangler `npm install -g wrangler`
 
 3. 将 Wrangler 安装后使用 `wrangler login` 登录
 
@@ -12,13 +12,13 @@
 
 5. 使用 `wrangler publish` 上传到 Cloudflare Workers
 
-6. 创建 Cloudflare KV 缓存桶
+6. 创建 [Cloudflare KV](https://www.cloudflare.com/products/workers-kv/) 缓存桶
 
    前往 Workers 的 Settings 页面 - 选择 Variables 选项卡 - 下滑至 **KV Namespace Bindings** 并创建：
 
    **Variable name** 为 `ANTARES_KV` 并选中刚刚创建的 Cloudflare KV 
 
-7. 创建 Cloudflare R2 存储桶
+7. 创建 [Cloudflare R2](https://www.cloudflare.com/products/r2/) 存储桶
 
    前往 Workers 的 Settings 页面 - 选择 Variables 选项卡 - 下滑至 **R2 Bucket Bindings** 并创建：
 
